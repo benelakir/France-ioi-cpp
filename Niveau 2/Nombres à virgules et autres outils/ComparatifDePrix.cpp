@@ -1,0 +1,15 @@
+#include <iostream>
+#define repeat(nb) for (int _loop = 1, _max = (nb); _loop <= _max; _loop++)
+using namespace std;
+int main()
+{
+   int n;
+   cin>>n;
+   repeat (2*n)
+   {
+     double p,a,pr;
+     cin>>p>>a>>pr;
+     double pki=(pr/p);
+     cout<<pki<<endl;
+   }
+}
